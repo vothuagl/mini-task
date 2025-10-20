@@ -175,6 +175,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
       if (e.target.checked) {
         parentItem.style.textDecoration = "line-through";
+      } else {
+        parentItem.style.textDecoration = "none";
       }
 
     }
@@ -206,15 +208,3 @@ document.addEventListener("DOMContentLoaded", function () {
   })
 })
 
-
-document.addEventListener('DOMContentLoaded', () => {
-  const arr = [1, 2, 5, 6, 1, 4, 1];
-
-  function myFunc(total, num) {
-    return total + num;
-  }
-
-  const arrObj = arr.reduce(myFunc, 0);
-  console.log(arrObj);
-
-})

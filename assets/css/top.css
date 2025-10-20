@@ -1423,3 +1423,15 @@
   text-decoration: line-through;
   color: #888;
 }
+
+.boxGsap {
+  margin-top: 10rem;
+  width: 100px;
+  height: 100px;
+  background-color: #54AA64;
+}
+
+
+.gsap {
+  min-height: 1000px;
+}
